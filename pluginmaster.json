@@ -1,0 +1,36 @@
+[
+    {
+      "Disabled": false,
+      "Testing": false,
+      "IsThirdParty": false,
+      "Author": "AnotherEnd",
+      "Name": "AEAssist",
+      "Punchline": "Auto attack!",
+      "Description": "Hello World!",
+      "Changelog": "",
+      "Tags": [
+        "Attack"
+      ],
+      "CategoryTags": [
+        "jobs"
+      ],
+      "IsHide": false,
+      "InternalName": "AEAssist",
+      "AssemblyVersion": "1.0.0.3",
+      "IsTestingExclusive": false,
+      "RepoUrl": "https://github.com/DouyuShinyruo/AEAssistReleaseCNRepo",
+      "ApplicableVersion": "any",
+      "DalamudApiLevel": 6,
+      "DownloadCount": 1024,
+      "LastUpdate": 0,
+      "DownloadLinkInstall": "https://github.com/DouyuShinyruo/AEAssistReleaseCNRepo/raw/master/latest/latest.zip",
+      "DownloadLinkUpdate": "https://github.com/DouyuShinyruo/AEAssistReleaseCNRepo/raw/master/latest/latest.zip",
+      "DownloadLinkTesting": "https://github.com/DouyuShinyruo/AEAssistReleaseCNRepo/raw/master/latest/latest.zip",
+      "LoadPriority": 0,
+      "ImageUrls": [],
+      "IconUrl": "https://github.com/DouyuShinyruo/AEAssistReleaseCNRepo/master/latest/AEAssistIcon.png",
+      "AcceptsFeedback": true,
+      "FeedbackMessage": null,
+      "FeedbackWebhook": null
+    }
+  ]

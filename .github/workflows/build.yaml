@@ -1,0 +1,31 @@
+name: Build
+
+on: 
+  workflow_dispatch:
+  push:
+    branches:
+    - master
+
+env: 
+  INTERNAL_NAME: AEAssistReleaseCNRepo
+  PERSONAL_PLUGIN_REPO: DouyuShinyruo/AEAssistReleaseCNRepo
+
+  deploy:
+    needs: build
+    if: "contains(toJSON(github.event.commits.*.message), '[PUSH]')"
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v2
+      with:
+        repository: ${{ env.PERSONAL_PLUGIN_REPO }}
+        token: ${{ secrets.PAT }}
+    - uses: actions/download-artifact@v2
+      with:
+        name: PluginRepoZip
+        path: plugins/${{ env.INTERNAL_NAME }}
+    - uses: EndBug/add-and-commit@v7
+      with:
+        add: --all
+        author_name: GitHub Action
+        author_email: github-actions[bot]@users.noreply.github.com
+        message: Update ${{ env.INTERNAL_NAME }}
