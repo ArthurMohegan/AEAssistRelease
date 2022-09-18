@@ -8,7 +8,7 @@
       "AssemblyVersion": "1.0.0.3",
       "RepoUrl": "https://github.com/DouyuShinyruo/AEAssistReleaseCNRepo",
       "ApplicableVersion": "any",
-      "DalamudApiLevel": 7,
+      "DalamudApiLevel": 6,
       "DownloadLinkInstall": "https://github.com/DouyuShinyruo/AEAssistReleaseCNRepo/raw/master/latest/latest.zip",
       "DownloadLinkUpdate": "https://github.com/DouyuShinyruo/AEAssistReleaseCNRepo/raw/master/latest/latest.zip",
       "DownloadLinkTesting": "https://github.com/DouyuShinyruo/AEAssistReleaseCNRepo/raw/master/latest/latest.zip",
